@@ -20,6 +20,8 @@ signUp.addEventListener('click', () => {
     const passValue = pass.value;
     const confPassValue = confPass.value;
     if (passValue != confPassValue) {
+        pass.value = '';
+        confPass.value = '';
 
     }
     else {
